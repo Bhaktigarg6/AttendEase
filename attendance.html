@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AttendEase - Login</title>
+    <style>
+        body {
+            background: #F4F4F4;
+            font-family: 'Poppins', sans-serif;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .header {
+            font-size: 36px;
+            font-weight: bold;
+            color: #2C3E50;
+            margin-bottom: 10px;
+            text-align: center;
+        }
+        .sub-header {
+            font-size: 18px;
+            color: #555;
+            text-align: center;
+            margin-bottom: 20px;
+            width: 60%;
+            font-style: italic;
+            font-weight: 500;
+        }
+        .container {
+            display: flex;
+            width: 70%;
+            background: #FFFFFF;
+            border-radius: 10px;
+            box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+        }
+        .left-panel {
+            width: 35%;
+            background: #2C3E50;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+            color: white;
+        }
+        .left-panel h1 {
+            writing-mode: vertical-rl;
+            text-orientation: upright;
+            font-size: 28px;
+            font-weight: bold;
+            margin-right: 15px;
+            letter-spacing: 2px;
+        }
+        .left-panel img {
+            width: 80%;
+            border-radius: 10px;
+        }
+        .login-container {
+            width: 65%;
+            padding: 40px;
+            text-align: center;
+        }
+        h2 {
+            color: #34495E;
+            font-size: 24px;
+            margin-bottom: 20px;
+        }
+        input {
+            width: 90%;
+            padding: 12px;
+            margin: 10px 0;
+            border: 1px solid #BDC3C7;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+        button {
+            background: #2980B9;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 14px;
+            transition: 0.3s;
+        }
+        button:hover {
+            background: #1A5276;
+        }
+        .links {
+            margin-top: 15px;
+        }
+        .links a {
+            color: #2980B9;
+            text-decoration: none;
+            font-size: 14px;
+            display: block;
+            margin-top: 5px;
+        }
+        .links a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">AttendEase</div>
+    <div class="sub-header">"Track smart, attend easy – because every class counts!"</div>
+    <div class="container">
+        <div class="left-panel">
+            <img src="checklist_login.jpg" alt="AttendEase Image">
+        </div>
+        <div class="login-container">
+            <h2>Login to AttendEase</h2>
+            <form>
+                <input type="text" placeholder="Email" required><br>
+                <input type="password" placeholder="Password" required><br>
+                <button type="submit">Login</button>
+            </form>
+            <div class="links">
+                <a href="#">Forgot Password?</a>
+                <a href="#">Create New Account</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
